@@ -166,7 +166,7 @@ struct ContentView: View {
         
         filterCount += 1
         
-        if filterCount >= 3 {
+        if filterCount % 7 == 0 {
             requestReview()
         }
     }
